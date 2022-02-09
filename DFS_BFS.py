@@ -56,6 +56,7 @@ for i in range(n):
 
 print(result)
 """
+"""
 from collections import deque
 
 n,m=map(int,input().split())
@@ -82,6 +83,7 @@ def bfs(x,y):
         q.append((nx,ny))
   return graph[n-1][m-1]
 print(bfs(0,0))
+"""
 
 
 
